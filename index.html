@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zoo Legends - Create Your Zoo, Your Way!</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Moving Background -->
+    <div class="moving-background"></div>
+
+    <!-- Particle Container -->
+    <div class="particle-container"></div>
+
+    <!-- Header -->
+    <header class="">
+        <div class="logo-container">
+            <img src="zoo-legends-logo.png" alt="Zoo Legends Logo" class="logo">
+            <span class="logo-text">Zoo Legends</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#newsletter" class="cta-button">Join Waitlist</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-dust"></div>
+        <div class="hero-content">
+            <div class="hero-header-container">
+                <div>
+                    <h1>Zoo Legends</h1>
+                    <p class="tagline">Create your zoo, your way!</p>
+                </div>
+                <div class="hero-small-image"></div>
+            </div>
+            <div class="hero-content-image"></div>
+        </div>
+        <div class="hero-image">
+            <!-- Large zoo animal image will be added here via CSS -->
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>Your Dream Zoo Awaits</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        Manage staff, balance your budget, and keep visitors entertained.
+                        With realistic animal behaviors, dynamic environments, and endless
+                        customization options, this game delivers a deep, rewarding experience
+                        for animal lovers and strategy fans alike.
+                    </p>
+                </div>
+                <div class="about-image animate">
+                    <div class="image-frame"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2>Game Features</h2>
+            <div class="features-grid">
+                <div class="feature-card animate">
+                    <div class="feature-image"></div>
+                    <div class="feature-icon design-icon"></div>
+                    <h3>Design &amp; Build</h3>
+                    <p>Create and customize your dream zoo with intuitive building tools</p>
+                </div>
+                <div class="feature-card animate">
+                    <div class="feature-image"></div>
+                    <div class="feature-icon animals-icon"></div>
+                    <h3>Diverse Animals</h3>
+                    <p>Care for dozens of unique animal species with realistic behaviors</p>
+                </div>
+                <div class="feature-card animate">
+                    <div class="feature-image"></div>
+                    <div class="feature-icon management-icon"></div>
+                    <h3>Zoo Management</h3>
+                    <p>Hire staff, research new attractions, and keep your visitors happy</p>
+                </div>
+                <div class="feature-card animate">
+                    <div class="feature-image"></div>
+                    <div class="feature-icon challenges-icon"></div>
+                    <h3>Zoo Community</h3>
+                    <p>Visit other players' zoos, trade animals, and build a global network</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2>Gallery</h2>
+            <div class="gallery-slider">
+                <div class="gallery-track">
+                    <div class="gallery-item animate"></div>
+                    <div class="gallery-item animate"></div>
+                    <div class="gallery-item animate"></div>
+                    <div class="gallery-item animate"></div>
+                    <div class="gallery-item animate"></div>
+                    <div class="gallery-item"></div><div class="gallery-item"></div><div class="gallery-item"></div><div class="gallery-item"></div><div class="gallery-item"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section id="newsletter" class="newsletter">
+        <div class="container">
+            <h2>Stay Updated</h2>
+            <p>Join our waitlist to receive updates and be the first to play when we launch!</p>
+            <form id="waitlistForm" class="signup-form">
+                <input type="email" name="email" id="email" placeholder="Your email address" required>
+                <button type="submit" class="primary-button">Join Waitlist</button>
+            </form>
+            <div id="formResponse" class="form-response"></div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-logo">
+                <img src="zoo-legends-logo.png" alt="Zoo Legends Logo" class="logo-small">
+            </div>
+            <div class="footer-links">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#newsletter">Join Waitlist</a></li>
+                </ul>
+            </div>
+            <p class="copyright">© 2025 Zoo Legends. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
