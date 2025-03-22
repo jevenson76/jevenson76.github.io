@@ -3,52 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zoo Legends - Create Your Zoo, Your Way!</title>
+    <title>Zoo Legends - Create Your Dream Zoo Experience</title>
+    <meta name="description" content="Design, build and manage your own zoo with realistic animal behaviors, dynamic environments, and endless customization options in Zoo Legends.">
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com/">
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="zoo-legends-logo.png">
 </head>
 <body>
 
-    <!-- Moving Background -->
+    <!-- Background Elements -->
     <div class="moving-background"></div>
-
-    <!-- Particle Container -->
     <div class="particle-container"></div>
 
     <!-- Header -->
-    <header class="">
-        <div class="logo-container">
-            <img src="zoo-legends-logo.png" alt="Zoo Legends Logo" class="logo">
-            <span class="logo-text">Zoo Legends</span>
+    <header>
+        <div class="container">
+            <div class="logo-container">
+                <img src="zoo-legends-logo.png" alt="Zoo Legends Logo" class="logo">
+                <span class="logo-text">Zoo Legends</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#newsletter" class="cta-button">Join Waitlist</a></li>
+                </ul>
+            </nav>
         </div>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#features">Features</a></li>
-                <li><a href="#gallery">Gallery</a></li>
-                <li><a href="#newsletter" class="cta-button">Join Waitlist</a></li>
-            </ul>
-        </nav>
     </header>
 
     <!-- Hero Section -->
     <section class="hero" id="home">
-        <div class="hero-dust"></div>
-        <div class="hero-content">
-            <div class="hero-header-container">
-                <div>
-                    <h1>Zoo Legends</h1>
-                    <p class="tagline">Create your zoo, your way!</p>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-header-container">
+                    <h1>Create Your Dream Zoo</h1>
+                    <p class="tagline">Design, build, and manage your own virtual zoo empire</p>
+                    <p class="description">
+                        Zoo Legends offers an immersive simulation experience where you can create and manage your own zoo. Design beautiful habitats, care for exotic animals, and create an unforgettable experience for your visitors.
+                    </p>
+                    <div class="cta-buttons">
+                        <a href="#newsletter" class="primary-button">Join the Waitlist</a>
+                        <a href="#features" class="secondary-button">Learn More</a>
+                    </div>
                 </div>
-                <div class="hero-small-image"></div>
+                <div class="hero-content-image"></div>
             </div>
-            <div class="hero-content-image"></div>
         </div>
-        <div class="hero-image">
-            <!-- Large zoo animal image will be added here via CSS -->
-        </div>
+        <div class="hero-image"></div>
     </section>
 
     <!-- About Section -->
@@ -58,13 +63,16 @@
             <div class="about-content">
                 <div class="about-text">
                     <p>
-                        Manage staff, balance your budget, and keep visitors entertained.
-                        With realistic animal behaviors, dynamic environments, and endless
-                        customization options, this game delivers a deep, rewarding experience
-                        for animal lovers and strategy fans alike.
+                        Dive into the world of zoo management with our premium simulation experience. Zoo Legends offers unparalleled depth and realism, allowing you to build and manage the zoo of your dreams.
+                    </p>
+                    <p>
+                        With realistic animal behaviors, dynamic environments, and endless customization options, Zoo Legends delivers a deep, rewarding experience for animal lovers and strategy fans alike.
+                    </p>
+                    <p>
+                        Balance your budget, keep visitors entertained, and ensure your animals thrive in their carefully designed habitats. Every decision matters in your journey to create the world's most prestigious zoo.
                     </p>
                 </div>
-                <div class="about-image animate">
+                <div class="about-image">
                     <div class="image-frame"></div>
                 </div>
             </div>
@@ -76,29 +84,29 @@
         <div class="container">
             <h2>Game Features</h2>
             <div class="features-grid">
-                <div class="feature-card animate">
+                <div class="feature-card">
                     <div class="feature-image"></div>
                     <div class="feature-icon design-icon"></div>
                     <h3>Design &amp; Build</h3>
-                    <p>Create and customize your dream zoo with intuitive building tools</p>
+                    <p>Create and customize your dream zoo with intuitive building tools and thousands of decoration options</p>
                 </div>
-                <div class="feature-card animate">
+                <div class="feature-card">
                     <div class="feature-image"></div>
                     <div class="feature-icon animals-icon"></div>
                     <h3>Diverse Animals</h3>
-                    <p>Care for dozens of unique animal species with realistic behaviors</p>
+                    <p>Care for dozens of unique animal species with realistic behaviors and individual personalities</p>
                 </div>
-                <div class="feature-card animate">
+                <div class="feature-card">
                     <div class="feature-image"></div>
                     <div class="feature-icon management-icon"></div>
                     <h3>Zoo Management</h3>
-                    <p>Hire staff, research new attractions, and keep your visitors happy</p>
+                    <p>Hire staff, research new attractions, and manage your finances to build a thriving business</p>
                 </div>
-                <div class="feature-card animate">
+                <div class="feature-card">
                     <div class="feature-image"></div>
                     <div class="feature-icon challenges-icon"></div>
                     <h3>Zoo Community</h3>
-                    <p>Visit other players' zoos, trade animals, and build a global network</p>
+                    <p>Visit other players' zoos, trade animals, and participate in global conservation challenges</p>
                 </div>
             </div>
         </div>
@@ -110,12 +118,12 @@
             <h2>Gallery</h2>
             <div class="gallery-slider">
                 <div class="gallery-track">
-                    <div class="gallery-item animate"></div>
-                    <div class="gallery-item animate"></div>
-                    <div class="gallery-item animate"></div>
-                    <div class="gallery-item animate"></div>
-                    <div class="gallery-item animate"></div>
-                    <div class="gallery-item"></div><div class="gallery-item"></div><div class="gallery-item"></div><div class="gallery-item"></div><div class="gallery-item"></div>
+                    <div class="gallery-item"></div>
+                    <div class="gallery-item"></div>
+                    <div class="gallery-item"></div>
+                    <div class="gallery-item"></div>
+                    <div class="gallery-item"></div>
+                    <!-- Cloned items for infinite loop will be added via JS -->
                 </div>
             </div>
         </div>
